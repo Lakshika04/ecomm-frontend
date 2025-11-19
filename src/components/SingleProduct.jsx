@@ -1,6 +1,9 @@
 import React from 'react'
 
+
 const SingleProduct = () => {
+
+ 
   return (
     <div className='flex'>
         <div className='flex gap-3 h-120 m-10'>
@@ -45,7 +48,7 @@ const SingleProduct = () => {
             </div>
             <div className='mt-4 flex gap-8'>
                 <h1 className='text-white font-bold text-lg bg-pink-600 w-40 pl-5'>ADD TO BAG</h1>
-                <h1 className='text-lg font-bold border-1 w-30 pl-4'>WISHLIST</h1>
+                <h1 className='text-lg font-bold border w-30 pl-4'>WISHLIST</h1>
             </div>
 
         </div>
