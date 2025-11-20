@@ -4,6 +4,8 @@ import HeroSection from './sections/HeroSection'
 import ProductSection from './sections/ProductSection'
 import TopRatedproduct from './sections/TopRatedproduct'
 import ClothesSection from './sections/ClothesSection'
+import FlashSale from './sections/FlashSale'
+import TodayForYou from './sections/TodayForYou'
 
 const App = () => {
 
@@ -14,6 +16,8 @@ const App = () => {
       <ProductSection/>
       <TopRatedproduct/>
       <ClothesSection/>
+      <FlashSale/>
+      <TodayForYou/>
     </div>
   )
 }
