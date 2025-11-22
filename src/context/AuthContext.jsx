@@ -79,13 +79,20 @@ export const AuthProvider = ({ children }) => {
     setIsAuthenticated(false)
   }
 
+  const updateUser = (updatedUserData) => {
+    const updatedUser = { ...user, ...updatedUserData }
+    setUser(updatedUser)
+    localStorage.setItem('user', JSON.stringify(updatedUser))
+  }
+
   const value = {
     user,
     isAuthenticated,
     loading,
     login,
     signup,
-    logout
+    logout,
+    updateUser
   }
 
   return (
